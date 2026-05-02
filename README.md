@@ -2,6 +2,13 @@
 
 This repository contains a set of Information Retrieval homework implementations organized by folder. Each homework is a separate mini-project (not a single deployable application).
 
+## Group members (Section 1)
+Bezawit Hayalu  UGR/5778/17
+Eyael Gebrewahd UGR/1353/17
+Daniel Hirpa    UGR/3745/17
+Eden Brhane     UGR/6797/17 
+Abigia Getu     UGR/7827/17
+
 ## Repository structure
 
 - `HW1/`: Retrieval models implemented using Elasticsearch statistics.
