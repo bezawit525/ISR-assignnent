@@ -67,26 +67,4 @@ The relevance codes are defined by Cleverdon (see `cranqrel.readme`).
 - Some HWs require **Elasticsearch** and specific indices/mappings (notably HW1, HW4 HITS, HW6).
 - Several scripts in the HW folders still contain hard-coded paths from the original author environment; consult each `HWx/report.md` for what needs to be parameterized.
 
----
 
-# HW1 assignment reference (original description)
-
-Implement and compare various retrieval systems using vector space models and language models.
-
-This assignment introduces Elasticsearch. It involves writing:
-
-1. A program to parse the corpus and index it with Elasticsearch.
-2. A query processor to run queries using a selected retrieval model.
-
-## Getting Started
-
-- Download and install Elasticsearch and Kibana.
-- Download AP89 data: http://dragon.ischool.drexel.edu/example/ap89_collection.zip
-
-## Evaluation
-
-Use `trec_eval`:
-
-```bash
-trec_eval [-q] qrel_file results_file
-```
